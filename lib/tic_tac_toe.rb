@@ -1,3 +1,4 @@
+require 'pry'
 class TicTacToe
 
   def initialize
@@ -29,7 +30,6 @@ class TicTacToe
 
   def move(index, token = "X")
     @board[index] = token
-    board = ["X", " ", " ", " ", "O", " ", " "," ", " "]
   end
 
   def position_taken?(index)
